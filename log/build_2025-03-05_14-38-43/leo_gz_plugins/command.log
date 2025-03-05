@@ -1,0 +1,6 @@
+Invoking command in '/home/sfr2023/leo_ws/build/leo_gz_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sfr2023/leo_ws/src/leo_gz_plugins -DCMAKE_INSTALL_PREFIX=/home/sfr2023/leo_ws/install/leo_gz_plugins
+Invoked command in '/home/sfr2023/leo_ws/build/leo_gz_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sfr2023/leo_ws/src/leo_gz_plugins -DCMAKE_INSTALL_PREFIX=/home/sfr2023/leo_ws/install/leo_gz_plugins
+Invoking command in '/home/sfr2023/leo_ws/build/leo_gz_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sfr2023/leo_ws/build/leo_gz_plugins -- -j12 -l12
+Invoked command in '/home/sfr2023/leo_ws/build/leo_gz_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sfr2023/leo_ws/build/leo_gz_plugins -- -j12 -l12
+Invoking command in '/home/sfr2023/leo_ws/build/leo_gz_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sfr2023/leo_ws/build/leo_gz_plugins
+Invoked command in '/home/sfr2023/leo_ws/build/leo_gz_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sfr2023/leo_ws/build/leo_gz_plugins

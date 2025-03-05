@@ -1,0 +1,615 @@
+[0.000000] (-) TimerEvent: {}
+[0.000158] (explore_lite) JobQueued: {'identifier': 'explore_lite', 'dependencies': OrderedDict()}
+[0.000176] (leo_description) JobQueued: {'identifier': 'leo_description', 'dependencies': OrderedDict()}
+[0.000188] (leo_gz_plugins) JobQueued: {'identifier': 'leo_gz_plugins', 'dependencies': OrderedDict()}
+[0.000198] (navigation_demos) JobQueued: {'identifier': 'navigation_demos', 'dependencies': OrderedDict()}
+[0.000209] (explore_lite) JobStarted: {'identifier': 'explore_lite'}
+[0.005512] (leo_description) JobStarted: {'identifier': 'leo_description'}
+[0.009661] (leo_gz_plugins) JobStarted: {'identifier': 'leo_gz_plugins'}
+[0.012093] (navigation_demos) JobStarted: {'identifier': 'navigation_demos'}
+[0.015768] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'cmake'}
+[0.015937] (explore_lite) Command: {'cmd': ['/usr/bin/cmake', '/home/sfr2023/leo_ws/src/m-explore-ros2/explore', '-DCMAKE_INSTALL_PREFIX=/home/sfr2023/leo_ws/install/explore_lite'], 'cwd': '/home/sfr2023/leo_ws/build/explore_lite', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'sfr2023'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sfr2023/groot_ws/install/groot/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sfr2023'), ('OLDPWD', '/home/sfr2023/leo_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1447'), ('SYSTEMD_EXEC_PID', '1921'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3218'), ('COLCON_PREFIX_PATH', '/home/sfr2023/groot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sfr2023'), ('JOURNAL_STREAM', '8:10968'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sfr2023'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sfr2023/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sfr2023-vm:@/tmp/.ICE-unix/1706,unix/sfr2023-vm:/tmp/.ICE-unix/1706'), ('INVOCATION_ID', '8d09b143e2734199996c1c41bbf584fb'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e4f31bec-0173-4a28-82f1-eaab55631049'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sfr2023/leo_ws/build/explore_lite'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sfr2023/groot_ws/install/gz_example_robot_description/lib/python3.10/site-packages:/home/sfr2023/groot_ws/install/bt_demos/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sfr2023/groot_ws/install/groot:/opt/ros/humble')]), 'shell': False}
+[0.099661] (-) TimerEvent: {}
+[0.172326] (leo_gz_plugins) JobProgress: {'identifier': 'leo_gz_plugins', 'progress': 'cmake'}
+[0.172368] (leo_gz_plugins) Command: {'cmd': ['/usr/bin/cmake', '/home/sfr2023/leo_ws/src/leo_gz_plugins', '-DCMAKE_INSTALL_PREFIX=/home/sfr2023/leo_ws/install/leo_gz_plugins'], 'cwd': '/home/sfr2023/leo_ws/build/leo_gz_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'sfr2023'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sfr2023/groot_ws/install/groot/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sfr2023'), ('OLDPWD', '/home/sfr2023/leo_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1447'), ('SYSTEMD_EXEC_PID', '1921'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3218'), ('COLCON_PREFIX_PATH', '/home/sfr2023/groot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sfr2023'), ('JOURNAL_STREAM', '8:10968'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sfr2023'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sfr2023/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sfr2023-vm:@/tmp/.ICE-unix/1706,unix/sfr2023-vm:/tmp/.ICE-unix/1706'), ('INVOCATION_ID', '8d09b143e2734199996c1c41bbf584fb'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e4f31bec-0173-4a28-82f1-eaab55631049'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sfr2023/leo_ws/build/leo_gz_plugins'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sfr2023/groot_ws/install/gz_example_robot_description/lib/python3.10/site-packages:/home/sfr2023/groot_ws/install/bt_demos/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sfr2023/groot_ws/install/groot:/opt/ros/humble')]), 'shell': False}
+[0.174082] (explore_lite) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.174187] (explore_lite) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.174254] (explore_lite) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199775] (-) TimerEvent: {}
+[0.299998] (-) TimerEvent: {}
+[0.321564] (explore_lite) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.321994] (explore_lite) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.322632] (explore_lite) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.322706] (explore_lite) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.322773] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.322837] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.322897] (explore_lite) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.322965] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.323026] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.323091] (explore_lite) StdoutLine: {'line': b'-- BuilD for ROS2: humble\n'}
+[0.323148] (explore_lite) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.323204] (leo_gz_plugins) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.323335] (leo_gz_plugins) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.323398] (leo_gz_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.326443] (leo_gz_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.334161] (leo_gz_plugins) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.334355] (leo_gz_plugins) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.334769] (leo_gz_plugins) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.337715] (leo_gz_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.394873] (leo_gz_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.400086] (-) TimerEvent: {}
+[0.403099] (leo_gz_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.403300] (leo_gz_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.403779] (leo_gz_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.405964] (leo_gz_plugins) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.431082] (explore_lite) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500195] (-) TimerEvent: {}
+[0.506185] (explore_lite) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.521705] (leo_gz_plugins) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.556738] (explore_lite) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.562780] (explore_lite) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.573320] (explore_lite) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.588424] (explore_lite) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.594599] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[0.600333] (-) TimerEvent: {}
+[0.600563] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[0.601166] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [register]\n'}
+[0.602580] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-plugin1-register -- found version 1.4.0\n'}
+[0.602909] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-register\n'}
+[0.608291] (leo_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/leo_description', 'build', '--build-base', '/home/sfr2023/leo_ws/build/leo_description/build', 'install', '--record', '/home/sfr2023/leo_ws/build/leo_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sfr2023/leo_ws/src/leo_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'sfr2023', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/sfr2023/groot_ws/install/groot/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sfr2023', 'OLDPWD': '/home/sfr2023/leo_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1447', 'SYSTEMD_EXEC_PID': '1921', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3218', 'COLCON_PREFIX_PATH': '/home/sfr2023/groot_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'sfr2023', 'JOURNAL_STREAM': '8:10968', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sfr2023', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/sfr2023/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sfr2023-vm:@/tmp/.ICE-unix/1706,unix/sfr2023-vm:/tmp/.ICE-unix/1706', 'INVOCATION_ID': '8d09b143e2734199996c1c41bbf584fb', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:e4f31bec-0173-4a28-82f1-eaab55631049', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sfr2023/leo_ws/build/leo_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sfr2023/leo_ws/build/leo_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2023/leo_ws/install/leo_description/lib/python3.10/site-packages:/home/sfr2023/groot_ws/install/gz_example_robot_description/lib/python3.10/site-packages:/home/sfr2023/groot_ws/install/bt_demos/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/sfr2023/groot_ws/install/groot'}, 'shell': False}
+[0.609310] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-gazebo6 -- found version 6.16.0\n'}
+[0.609374] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gazebo6\n'}
+[0.609415] (explore_lite) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.610566] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.7.2\n'}
+[0.610844] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of sdformat12\n'}
+[0.616499] (leo_gz_plugins) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.627587] (leo_gz_plugins) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.650701] (explore_lite) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.652906] (explore_lite) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.659345] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.659748] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.662984] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[0.663317] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[0.665196] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[0.665621] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[0.665720] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [loader]\n'}
+[0.667791] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-plugin1-loader -- found version 1.4.0\n'}
+[0.668231] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-loader\n'}
+[0.668847] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [register]\n'}
+[0.671510] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[0.671883] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11\n'}
+[0.700458] (-) TimerEvent: {}
+[0.706643] (navigation_demos) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/navigation_demos', 'build', '--build-base', '/home/sfr2023/leo_ws/build/navigation_demos/build', 'install', '--record', '/home/sfr2023/leo_ws/build/navigation_demos/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sfr2023/leo_ws/src/navigation_demos', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'sfr2023', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/sfr2023/groot_ws/install/groot/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sfr2023', 'OLDPWD': '/home/sfr2023/leo_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1447', 'SYSTEMD_EXEC_PID': '1921', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3218', 'COLCON_PREFIX_PATH': '/home/sfr2023/groot_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'sfr2023', 'JOURNAL_STREAM': '8:10968', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sfr2023', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/sfr2023/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sfr2023-vm:@/tmp/.ICE-unix/1706,unix/sfr2023-vm:/tmp/.ICE-unix/1706', 'INVOCATION_ID': '8d09b143e2734199996c1c41bbf584fb', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:e4f31bec-0173-4a28-82f1-eaab55631049', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sfr2023/leo_ws/build/navigation_demos', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sfr2023/leo_ws/build/navigation_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2023/leo_ws/install/navigation_demos/lib/python3.10/site-packages:/home/sfr2023/groot_ws/install/gz_example_robot_description/lib/python3.10/site-packages:/home/sfr2023/groot_ws/install/bt_demos/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/sfr2023/groot_ws/install/groot'}, 'shell': False}
+[0.725282] (explore_lite) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.744868] (leo_description) StdoutLine: {'line': b'running egg_info\n'}
+[0.745263] (leo_description) StdoutLine: {'line': b'creating ../../build/leo_description/leo_description.egg-info\n'}
+[0.745365] (leo_description) StdoutLine: {'line': b'writing ../../build/leo_description/leo_description.egg-info/PKG-INFO\n'}
+[0.745582] (leo_description) StdoutLine: {'line': b'writing dependency_links to ../../build/leo_description/leo_description.egg-info/dependency_links.txt\n'}
+[0.745736] (leo_description) StdoutLine: {'line': b'writing entry points to ../../build/leo_description/leo_description.egg-info/entry_points.txt\n'}
+[0.745802] (leo_description) StdoutLine: {'line': b'writing requirements to ../../build/leo_description/leo_description.egg-info/requires.txt\n'}
+[0.745862] (leo_description) StdoutLine: {'line': b'writing top-level names to ../../build/leo_description/leo_description.egg-info/top_level.txt\n'}
+[0.745917] (leo_description) StdoutLine: {'line': b"writing manifest file '../../build/leo_description/leo_description.egg-info/SOURCES.txt'\n"}
+[0.746794] (leo_description) StdoutLine: {'line': b"reading manifest file '../../build/leo_description/leo_description.egg-info/SOURCES.txt'\n"}
+[0.747423] (leo_description) StdoutLine: {'line': b"writing manifest file '../../build/leo_description/leo_description.egg-info/SOURCES.txt'\n"}
+[0.747556] (leo_description) StdoutLine: {'line': b'running build\n'}
+[0.747637] (leo_description) StdoutLine: {'line': b'running build_py\n'}
+[0.747712] (leo_description) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/build/leo_description/build\n'}
+[0.747785] (leo_description) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/build/leo_description/build/lib\n'}
+[0.747979] (leo_description) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/build/leo_description/build/lib/leo_description\n'}
+[0.748037] (leo_description) StdoutLine: {'line': b'copying leo_description/__init__.py -> /home/sfr2023/leo_ws/build/leo_description/build/lib/leo_description\n'}
+[0.748091] (leo_description) StdoutLine: {'line': b'running install\n'}
+[0.748248] (leo_description) StdoutLine: {'line': b'running install_lib\n'}
+[0.748305] (leo_description) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/install/leo_description/lib/python3.10/site-packages/leo_description\n'}
+[0.748363] (leo_description) StdoutLine: {'line': b'copying /home/sfr2023/leo_ws/build/leo_description/build/lib/leo_description/__init__.py -> /home/sfr2023/leo_ws/install/leo_description/lib/python3.10/site-packages/leo_description\n'}
+[0.748901] (leo_description) StdoutLine: {'line': b'byte-compiling /home/sfr2023/leo_ws/install/leo_description/lib/python3.10/site-packages/leo_description/__init__.py to __init__.cpython-310.pyc\n'}
+[0.749030] (leo_description) StdoutLine: {'line': b'running install_data\n'}
+[0.749097] (leo_description) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/install/leo_description/share/ament_index\n'}
+[0.749158] (leo_description) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/install/leo_description/share/ament_index/resource_index\n'}
+[0.749216] (leo_description) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/install/leo_description/share/ament_index/resource_index/packages\n'}
+[0.749272] (leo_description) StdoutLine: {'line': b'copying resource/leo_description -> /home/sfr2023/leo_ws/install/leo_description/share/ament_index/resource_index/packages\n'}
+[0.749327] (leo_description) StdoutLine: {'line': b'copying package.xml -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description\n'}
+[0.749382] (leo_description) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/install/leo_description/share/leo_description/launch\n'}
+[0.749438] (leo_description) StdoutLine: {'line': b'copying launch/leo_rviz.launch.py -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/launch\n'}
+[0.752083] (leo_description) StdoutLine: {'line': b'copying launch/leo_sim.launch.py -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/launch\n'}
+[0.752577] (leo_description) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/install/leo_description/share/leo_description/models\n'}
+[0.752673] (leo_description) StdoutLine: {'line': b'copying models/Chassis.dae -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/models\n'}
+[0.753198] (explore_lite) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.769521] (leo_description) StdoutLine: {'line': b'copying models/WheelB.dae -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/models\n'}
+[0.774391] (leo_description) StdoutLine: {'line': b'copying models/WheelA.dae -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/models\n'}
+[0.778656] (leo_description) StdoutLine: {'line': b'copying models/Wheel_outline.stl -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/models\n'}
+[0.778871] (leo_description) StdoutLine: {'line': b'copying models/Antenna.dae -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/models\n'}
+[0.779861] (leo_description) StdoutLine: {'line': b'copying models/Rocker_outline.stl -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/models\n'}
+[0.780057] (leo_description) StdoutLine: {'line': b'copying models/Rocker.dae -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/models\n'}
+[0.785289] (leo_description) StdoutLine: {'line': b'copying models/Chassis_outline.stl -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/models\n'}
+[0.785580] (leo_description) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/install/leo_description/share/leo_description/urdf\n'}
+[0.785658] (leo_description) StdoutLine: {'line': b'copying urdf/leo.urdf.xacro -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/urdf\n'}
+[0.786107] (leo_description) StdoutLine: {'line': b'copying urdf/leo_proper.gazebo.xacro -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/urdf\n'}
+[0.786384] (leo_description) StdoutLine: {'line': b'copying urdf/leo.gazebo.xacro -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/urdf\n'}
+[0.786552] (leo_description) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/install/leo_description/share/leo_description/rviz\n'}
+[0.786713] (leo_description) StdoutLine: {'line': b'copying rviz/nav2.rviz -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/rviz\n'}
+[0.786863] (leo_description) StdoutLine: {'line': b'copying rviz/leo_view.rviz -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/rviz\n'}
+[0.787076] (leo_description) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/install/leo_description/share/leo_description/worlds\n'}
+[0.787144] (leo_description) StdoutLine: {'line': b'copying worlds/meshes/hexagon.dae -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/worlds\n'}
+[0.787286] (leo_description) StdoutLine: {'line': b'copying worlds/meshes/wall.dae -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/worlds\n'}
+[0.787425] (leo_description) StdoutLine: {'line': b'copying worlds/tb3old.sdf -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/worlds\n'}
+[0.787571] (leo_description) StdoutLine: {'line': b'copying worlds/tb3.sdf -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/worlds\n'}
+[0.787781] (leo_description) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/install/leo_description/share/leo_description/config\n'}
+[0.787842] (leo_description) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/install/leo_description/share/leo_description/maps\n'}
+[0.787898] (leo_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.789980] (leo_description) StdoutLine: {'line': b'Copying ../../build/leo_description/leo_description.egg-info to /home/sfr2023/leo_ws/install/leo_description/lib/python3.10/site-packages/leo_description-0.0.0-py3.10.egg-info\n'}
+[0.790718] (leo_description) StdoutLine: {'line': b'running install_scripts\n'}
+[0.797298] (explore_lite) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800558] (-) TimerEvent: {}
+[0.807255] (explore_lite) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.814142] (leo_description) StdoutLine: {'line': b"writing list of installed files to '/home/sfr2023/leo_ws/build/leo_description/install.log'\n"}
+[0.839878] (leo_description) CommandEnded: {'returncode': 0}
+[0.852125] (leo_description) JobEnded: {'identifier': 'leo_description', 'rc': 0}
+[0.852535] (leo_gz_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.852589] (leo_gz_plugins) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.855783] (leo_gz_plugins) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.860571] (navigation_demos) StdoutLine: {'line': b'running egg_info\n'}
+[0.860926] (navigation_demos) StdoutLine: {'line': b'creating ../../build/navigation_demos/navigation_demos.egg-info\n'}
+[0.860985] (navigation_demos) StdoutLine: {'line': b'writing ../../build/navigation_demos/navigation_demos.egg-info/PKG-INFO\n'}
+[0.861174] (navigation_demos) StdoutLine: {'line': b'writing dependency_links to ../../build/navigation_demos/navigation_demos.egg-info/dependency_links.txt\n'}
+[0.861208] (navigation_demos) StdoutLine: {'line': b'writing entry points to ../../build/navigation_demos/navigation_demos.egg-info/entry_points.txt\n'}
+[0.861306] (navigation_demos) StdoutLine: {'line': b'writing requirements to ../../build/navigation_demos/navigation_demos.egg-info/requires.txt\n'}
+[0.861332] (navigation_demos) StdoutLine: {'line': b'writing top-level names to ../../build/navigation_demos/navigation_demos.egg-info/top_level.txt\n'}
+[0.861360] (navigation_demos) StdoutLine: {'line': b"writing manifest file '../../build/navigation_demos/navigation_demos.egg-info/SOURCES.txt'\n"}
+[0.862235] (navigation_demos) StdoutLine: {'line': b"reading manifest file '../../build/navigation_demos/navigation_demos.egg-info/SOURCES.txt'\n"}
+[0.862619] (navigation_demos) StdoutLine: {'line': b"writing manifest file '../../build/navigation_demos/navigation_demos.egg-info/SOURCES.txt'\n"}
+[0.862658] (navigation_demos) StdoutLine: {'line': b'running build\n'}
+[0.862698] (navigation_demos) StdoutLine: {'line': b'running build_py\n'}
+[0.862812] (navigation_demos) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/build/navigation_demos/build\n'}
+[0.862849] (navigation_demos) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/build/navigation_demos/build/lib\n'}
+[0.862887] (navigation_demos) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/build/navigation_demos/build/lib/navigation_demos\n'}
+[0.862924] (navigation_demos) StdoutLine: {'line': b'copying navigation_demos/__init__.py -> /home/sfr2023/leo_ws/build/navigation_demos/build/lib/navigation_demos\n'}
+[0.863080] (navigation_demos) StdoutLine: {'line': b'running install\n'}
+[0.863108] (navigation_demos) StdoutLine: {'line': b'running install_lib\n'}
+[0.863628] (navigation_demos) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/install/navigation_demos/lib/python3.10/site-packages/navigation_demos\n'}
+[0.863659] (navigation_demos) StdoutLine: {'line': b'copying /home/sfr2023/leo_ws/build/navigation_demos/build/lib/navigation_demos/__init__.py -> /home/sfr2023/leo_ws/install/navigation_demos/lib/python3.10/site-packages/navigation_demos\n'}
+[0.863893] (navigation_demos) StdoutLine: {'line': b'byte-compiling /home/sfr2023/leo_ws/install/navigation_demos/lib/python3.10/site-packages/navigation_demos/__init__.py to __init__.cpython-310.pyc\n'}
+[0.864158] (navigation_demos) StdoutLine: {'line': b'running install_data\n'}
+[0.864204] (navigation_demos) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/install/navigation_demos/share/ament_index\n'}
+[0.864242] (navigation_demos) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/install/navigation_demos/share/ament_index/resource_index\n'}
+[0.864281] (navigation_demos) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/install/navigation_demos/share/ament_index/resource_index/packages\n'}
+[0.864319] (navigation_demos) StdoutLine: {'line': b'copying resource/navigation_demos -> /home/sfr2023/leo_ws/install/navigation_demos/share/ament_index/resource_index/packages\n'}
+[0.864433] (navigation_demos) StdoutLine: {'line': b'copying package.xml -> /home/sfr2023/leo_ws/install/navigation_demos/share/navigation_demos\n'}
+[0.864463] (navigation_demos) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/install/navigation_demos/share/navigation_demos/launch\n'}
+[0.864496] (navigation_demos) StdoutLine: {'line': b'copying launch/nav_demo.launch.py -> /home/sfr2023/leo_ws/install/navigation_demos/share/navigation_demos/launch\n'}
+[0.865211] (navigation_demos) StdoutLine: {'line': b'creating /home/sfr2023/leo_ws/install/navigation_demos/share/navigation_demos/config\n'}
+[0.865248] (navigation_demos) StdoutLine: {'line': b'copying config/maze.yaml -> /home/sfr2023/leo_ws/install/navigation_demos/share/navigation_demos/config\n'}
+[0.865456] (navigation_demos) StdoutLine: {'line': b'copying config/nav_params.yaml -> /home/sfr2023/leo_ws/install/navigation_demos/share/navigation_demos/config\n'}
+[0.865723] (navigation_demos) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.867622] (navigation_demos) StdoutLine: {'line': b'Copying ../../build/navigation_demos/navigation_demos.egg-info to /home/sfr2023/leo_ws/install/navigation_demos/lib/python3.10/site-packages/navigation_demos-0.0.0-py3.10.egg-info\n'}
+[0.867799] (leo_gz_plugins) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[0.867958] (navigation_demos) StdoutLine: {'line': b'running install_scripts\n'}
+[0.875888] (explore_lite) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.876525] (explore_lite) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.880813] (navigation_demos) StdoutLine: {'line': b'Installing exploration script to /home/sfr2023/leo_ws/install/navigation_demos/lib/navigation_demos\n'}
+[0.880897] (navigation_demos) StdoutLine: {'line': b'Installing scan_malware script to /home/sfr2023/leo_ws/install/navigation_demos/lib/navigation_demos\n'}
+[0.881046] (navigation_demos) StdoutLine: {'line': b"writing list of installed files to '/home/sfr2023/leo_ws/build/navigation_demos/install.log'\n"}
+[0.898102] (leo_gz_plugins) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[0.898238] (navigation_demos) CommandEnded: {'returncode': 0}
+[0.900648] (-) TimerEvent: {}
+[0.904470] (navigation_demos) JobEnded: {'identifier': 'navigation_demos', 'rc': 0}
+[0.904659] (leo_gz_plugins) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.912984] (leo_gz_plugins) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.933191] (explore_lite) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.933866] (explore_lite) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.935101] (leo_gz_plugins) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[0.935385] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[0.935748] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[0.935813] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-utils1> component [cli]\n'}
+[0.937067] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-utils1-cli -- found version 1.5.1\n'}
+[0.937346] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1-cli\n'}
+[0.939069] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[0.939325] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs8\n'}
+[0.949488] (leo_gz_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[0.950031] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.957734] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [log]\n'}
+[0.959090] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-transport11-log -- found version 11.4.1\n'}
+[0.959373] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-log\n'}
+[0.959832] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [parameters]\n'}
+[0.961118] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-transport11-parameters -- found version 11.4.1\n'}
+[0.961396] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-parameters\n'}
+[0.962158] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[0.963865] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[0.964089] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[0.964302] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.964767] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.965572] (leo_gz_plugins) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[0.971103] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [profiler]\n'}
+[0.972444] (explore_lite) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.972526] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-common4-profiler -- found version 4.7.0\n'}
+[0.972766] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-profiler\n'}
+[0.973211] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[0.974412] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-common4-events -- found version 4.7.0\n'}
+[0.974674] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-events\n'}
+[0.974895] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.975294] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [av]\n'}
+[0.976801] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-common4-av -- found version 4.7.0\n'}
+[0.977057] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-av\n'}
+[0.981314] (leo_gz_plugins) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[0.992333] (leo_gz_plugins) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[0.995616] (explore_lite) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.000745] (-) TimerEvent: {}
+[1.017822] (leo_gz_plugins) StdoutLine: {'line': b'-- Found SWSCALE: TRUE  \n'}
+[1.021652] (leo_gz_plugins) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[1.030291] (leo_gz_plugins) StdoutLine: {'line': b'--   Found libavdevice , version 58.13.100\n'}
+[1.057292] (leo_gz_plugins) StdoutLine: {'line': b'-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") \n'}
+[1.062035] (leo_gz_plugins) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[1.070705] (leo_gz_plugins) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[1.071525] (explore_lite) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.081946] (explore_lite) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.083006] (explore_lite) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.083108] (explore_lite) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.085494] (explore_lite) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.16 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[1.097311] (leo_gz_plugins) StdoutLine: {'line': b'-- Found AVFORMAT: TRUE  \n'}
+[1.100835] (-) TimerEvent: {}
+[1.102373] (leo_gz_plugins) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[1.112631] (leo_gz_plugins) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[1.119443] (explore_lite) StdoutLine: {'line': b'-- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)\n'}
+[1.136032] (leo_gz_plugins) StdoutLine: {'line': b'-- Found AVCODEC: TRUE  \n'}
+[1.137543] (explore_lite) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.139605] (leo_gz_plugins) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[1.148170] (leo_gz_plugins) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[1.162556] (explore_lite) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.1.16 (/opt/ros/humble/share/nav2_costmap_2d/cmake)\n'}
+[1.172092] (leo_gz_plugins) StdoutLine: {'line': b'-- Found AVUTIL: TRUE  \n'}
+[1.175263] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools7 -- found version 7.3.0\n'}
+[1.175626] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools7\n'}
+[1.200963] (-) TimerEvent: {}
+[1.234655] (leo_gz_plugins) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.243480] (leo_gz_plugins) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.252864] (leo_gz_plugins) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.263002] (explore_lite) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.278829] (leo_gz_plugins) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.283143] (leo_gz_plugins) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.292607] (leo_gz_plugins) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.301066] (-) TimerEvent: {}
+[1.319215] (leo_gz_plugins) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.319560] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.320120] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.320464] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.323067] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-gui6 -- found version 6.8.0\n'}
+[1.323348] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gui6\n'}
+[1.328073] (explore_lite) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.332565] (explore_lite) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.341900] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.342220] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.342548] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.342965] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[1.343164] (explore_lite) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.343546] (explore_lite) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/sfr2023/leo_ws/src/m-explore-ros2/explore/include;$<BUILD_INTERFACE:/home/sfr2023/leo_ws/src/m-explore-ros2/explore/include>\n'}
+[1.343610] (explore_lite) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.344111] (explore_lite) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.344611] (explore_lite) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.344990] (explore_lite) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.345518] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[1.345807] (explore_lite) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.345867] (explore_lite) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.346018] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-rendering6\n'}
+[1.346297] (explore_lite) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.346361] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.346678] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.346813] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-math6> component [eigen3]\n'}
+[1.347631] (explore_lite) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.348758] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6-eigen3 -- found version 6.15.1\n'}
+[1.349091] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6-eigen3\n'}
+[1.353911] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.354241] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[1.354316] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.354359] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.360782] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [graphics]\n'}
+[1.362243] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-common4-graphics -- found version 4.7.0\n'}
+[1.362562] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-graphics\n'}
+[1.362732] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.363053] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[1.363558] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[1.364172] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.364343] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[1.364394] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [all]\n'}
+[1.365940] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for all libraries of ignition-plugin1 -- found version 1.4.0\n'}
+[1.366275] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.367961] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.391860] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-physics5 -- found version 5.3.2\n'}
+[1.392099] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5\n'}
+[1.392318] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.392650] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.392945] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[1.393762] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [heightmap]\n'}
+[1.395110] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-physics5-heightmap -- found version 5.3.2\n'}
+[1.395436] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-heightmap\n'}
+[1.395752] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.396078] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [mesh]\n'}
+[1.397414] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-physics5-mesh -- found version 5.3.2\n'}
+[1.397753] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-mesh\n'}
+[1.398094] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.398474] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [sdf]\n'}
+[1.399812] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-physics5-sdf -- found version 5.3.2\n'}
+[1.400146] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-sdf\n'}
+[1.400399] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.7.2\n'}
+[1.401157] (-) TimerEvent: {}
+[1.402944] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.0\n'}
+[1.403283] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6\n'}
+[1.415701] (leo_gz_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.416600] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.416941] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.417526] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[1.417764] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[1.418215] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.418619] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.7.2\n'}
+[1.419604] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [air_pressure]\n'}
+[1.421779] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6-air_pressure -- found version 6.8.0\n'}
+[1.422235] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-air_pressure\n'}
+[1.422887] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [altimeter]\n'}
+[1.425009] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6-altimeter -- found version 6.8.0\n'}
+[1.425310] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-altimeter\n'}
+[1.425940] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [imu]\n'}
+[1.428070] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6-imu -- found version 6.8.0\n'}
+[1.428397] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-imu\n'}
+[1.428426] (explore_lite) StdoutLine: {'line': b'-- Generating done\n'}
+[1.429122] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [force_torque]\n'}
+[1.429602] (explore_lite) StdoutLine: {'line': b'-- Build files have been written to: /home/sfr2023/leo_ws/build/explore_lite\n'}
+[1.431302] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6-force_torque -- found version 6.8.0\n'}
+[1.431690] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-force_torque\n'}
+[1.432587] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [logical_camera]\n'}
+[1.434539] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6-logical_camera -- found version 6.8.0\n'}
+[1.434913] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-logical_camera\n'}
+[1.435701] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [magnetometer]\n'}
+[1.437046] (explore_lite) CommandEnded: {'returncode': 0}
+[1.437611] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'build'}
+[1.438120] (explore_lite) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sfr2023/leo_ws/build/explore_lite', '--', '-j12', '-l12'], 'cwd': '/home/sfr2023/leo_ws/build/explore_lite', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'sfr2023'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sfr2023/groot_ws/install/groot/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sfr2023'), ('OLDPWD', '/home/sfr2023/leo_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1447'), ('SYSTEMD_EXEC_PID', '1921'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3218'), ('COLCON_PREFIX_PATH', '/home/sfr2023/groot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sfr2023'), ('JOURNAL_STREAM', '8:10968'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sfr2023'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sfr2023/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sfr2023-vm:@/tmp/.ICE-unix/1706,unix/sfr2023-vm:/tmp/.ICE-unix/1706'), ('INVOCATION_ID', '8d09b143e2734199996c1c41bbf584fb'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e4f31bec-0173-4a28-82f1-eaab55631049'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sfr2023/leo_ws/build/explore_lite'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sfr2023/groot_ws/install/gz_example_robot_description/lib/python3.10/site-packages:/home/sfr2023/groot_ws/install/bt_demos/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sfr2023/groot_ws/install/groot:/opt/ros/humble')]), 'shell': False}
+[1.439119] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6-magnetometer -- found version 6.8.0\n'}
+[1.439186] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-magnetometer\n'}
+[1.439230] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [navsat]\n'}
+[1.439893] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6-navsat -- found version 6.8.0\n'}
+[1.440236] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-navsat\n'}
+[1.440734] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rendering]\n'}
+[1.442219] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rendering -- found version 6.8.0\n'}
+[1.442559] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rendering\n'}
+[1.443067] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [lidar]\n'}
+[1.444530] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6-lidar -- found version 6.8.0\n'}
+[1.444898] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-lidar\n'}
+[1.445161] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.0\n'}
+[1.445718] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [gpu_lidar]\n'}
+[1.447245] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.0\n'}
+[1.447563] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-gpu_lidar\n'}
+[1.447826] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.0\n'}
+[1.448361] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [camera]\n'}
+[1.449789] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6-camera -- found version 6.8.0\n'}
+[1.450173] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-camera\n'}
+[1.450410] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.0\n'}
+[1.450976] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [boundingbox_camera]\n'}
+[1.452520] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.0\n'}
+[1.452895] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-boundingbox_camera\n'}
+[1.453381] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [segmentation_camera]\n'}
+[1.454862] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.0\n'}
+[1.455243] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-segmentation_camera\n'}
+[1.455640] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [depth_camera]\n'}
+[1.457064] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6-depth_camera -- found version 6.8.0\n'}
+[1.457422] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-depth_camera\n'}
+[1.457675] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.0\n'}
+[1.458230] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rgbd_camera]\n'}
+[1.459548] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.0\n'}
+[1.459905] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rgbd_camera\n'}
+[1.460157] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.0\n'}
+[1.460748] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [thermal_camera]\n'}
+[1.462132] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6-thermal_camera -- found version 6.8.0\n'}
+[1.462507] (leo_gz_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-thermal_camera\n'}
+[1.462750] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.0\n'}
+[1.463552] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[1.463877] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.465500] (leo_gz_plugins) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[1.480547] (explore_lite) StdoutLine: {'line': b'[ 10%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\n'}
+[1.483143] (explore_lite) StdoutLine: {'line': b'[ 20%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\n'}
+[1.484574] (leo_gz_plugins) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.485412] (explore_lite) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/explore.dir/src/explore.cpp.o\n'}
+[1.485552] (explore_lite) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o\n'}
+[1.488726] (explore_lite) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o\n'}
+[1.501277] (-) TimerEvent: {}
+[1.570563] (leo_gz_plugins) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.571768] (leo_gz_plugins) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.571871] (leo_gz_plugins) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.572136] (leo_gz_plugins) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.572976] (leo_gz_plugins) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.573044] (leo_gz_plugins) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.573365] (leo_gz_plugins) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.574538] (leo_gz_plugins) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.585890] (leo_gz_plugins) StdoutLine: {'line': b'-- Generating done\n'}
+[1.587581] (leo_gz_plugins) StdoutLine: {'line': b'-- Build files have been written to: /home/sfr2023/leo_ws/build/leo_gz_plugins\n'}
+[1.599767] (leo_gz_plugins) CommandEnded: {'returncode': 0}
+[1.600452] (leo_gz_plugins) JobProgress: {'identifier': 'leo_gz_plugins', 'progress': 'build'}
+[1.600867] (leo_gz_plugins) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sfr2023/leo_ws/build/leo_gz_plugins', '--', '-j12', '-l12'], 'cwd': '/home/sfr2023/leo_ws/build/leo_gz_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'sfr2023'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sfr2023/groot_ws/install/groot/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sfr2023'), ('OLDPWD', '/home/sfr2023/leo_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1447'), ('SYSTEMD_EXEC_PID', '1921'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3218'), ('COLCON_PREFIX_PATH', '/home/sfr2023/groot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sfr2023'), ('JOURNAL_STREAM', '8:10968'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sfr2023'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sfr2023/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sfr2023-vm:@/tmp/.ICE-unix/1706,unix/sfr2023-vm:/tmp/.ICE-unix/1706'), ('INVOCATION_ID', '8d09b143e2734199996c1c41bbf584fb'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e4f31bec-0173-4a28-82f1-eaab55631049'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sfr2023/leo_ws/build/leo_gz_plugins'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sfr2023/groot_ws/install/gz_example_robot_description/lib/python3.10/site-packages:/home/sfr2023/groot_ws/install/bt_demos/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sfr2023/groot_ws/install/groot:/opt/ros/humble')]), 'shell': False}
+[1.601764] (-) TimerEvent: {}
+[1.642495] (leo_gz_plugins) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/leo_gz_differential_plugin.dir/src/differential_system.cpp.o\n'}
+[1.701904] (-) TimerEvent: {}
+[1.802131] (-) TimerEvent: {}
+[1.902379] (-) TimerEvent: {}
+[2.002697] (-) TimerEvent: {}
+[2.103020] (-) TimerEvent: {}
+[2.168822] (explore_lite) StdoutLine: {'line': b'[ 60%] Linking CXX static library libgtest_main.a\n'}
+[2.203210] (-) TimerEvent: {}
+[2.208139] (explore_lite) StdoutLine: {'line': b'[ 60%] Built target gtest_main\n'}
+[2.303392] (-) TimerEvent: {}
+[2.403627] (-) TimerEvent: {}
+[2.503882] (-) TimerEvent: {}
+[2.604160] (-) TimerEvent: {}
+[2.704426] (-) TimerEvent: {}
+[2.804657] (-) TimerEvent: {}
+[2.904895] (-) TimerEvent: {}
+[3.005137] (-) TimerEvent: {}
+[3.105393] (-) TimerEvent: {}
+[3.205622] (-) TimerEvent: {}
+[3.305867] (-) TimerEvent: {}
+[3.406131] (-) TimerEvent: {}
+[3.506386] (-) TimerEvent: {}
+[3.606635] (-) TimerEvent: {}
+[3.706873] (-) TimerEvent: {}
+[3.807124] (-) TimerEvent: {}
+[3.907423] (-) TimerEvent: {}
+[4.007653] (-) TimerEvent: {}
+[4.107910] (-) TimerEvent: {}
+[4.208177] (-) TimerEvent: {}
+[4.308461] (-) TimerEvent: {}
+[4.408720] (-) TimerEvent: {}
+[4.509021] (-) TimerEvent: {}
+[4.609229] (-) TimerEvent: {}
+[4.709467] (-) TimerEvent: {}
+[4.809712] (-) TimerEvent: {}
+[4.826259] (explore_lite) StdoutLine: {'line': b'[ 70%] Linking CXX static library libgtest.a\n'}
+[4.885284] (explore_lite) StdoutLine: {'line': b'[ 70%] Built target gtest\n'}
+[4.908676] (explore_lite) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/test_explore.dir/test/test_explore.cpp.o\n'}
+[4.909824] (-) TimerEvent: {}
+[5.010031] (-) TimerEvent: {}
+[5.110295] (-) TimerEvent: {}
+[5.210572] (-) TimerEvent: {}
+[5.310828] (-) TimerEvent: {}
+[5.411059] (-) TimerEvent: {}
+[5.511343] (-) TimerEvent: {}
+[5.611622] (-) TimerEvent: {}
+[5.711890] (-) TimerEvent: {}
+[5.812192] (-) TimerEvent: {}
+[5.912455] (-) TimerEvent: {}
+[5.971975] (explore_lite) StdoutLine: {'line': b'[ 90%] Linking CXX executable test_explore\n'}
+[6.012595] (-) TimerEvent: {}
+[6.112794] (-) TimerEvent: {}
+[6.213039] (-) TimerEvent: {}
+[6.313294] (-) TimerEvent: {}
+[6.413508] (-) TimerEvent: {}
+[6.513756] (-) TimerEvent: {}
+[6.614020] (-) TimerEvent: {}
+[6.714310] (-) TimerEvent: {}
+[6.814587] (-) TimerEvent: {}
+[6.914819] (-) TimerEvent: {}
+[7.008853] (explore_lite) StdoutLine: {'line': b'[ 90%] Built target test_explore\n'}
+[7.015022] (-) TimerEvent: {}
+[7.115318] (-) TimerEvent: {}
+[7.215587] (-) TimerEvent: {}
+[7.315834] (-) TimerEvent: {}
+[7.416079] (-) TimerEvent: {}
+[7.516327] (-) TimerEvent: {}
+[7.616535] (-) TimerEvent: {}
+[7.716782] (-) TimerEvent: {}
+[7.817027] (-) TimerEvent: {}
+[7.917296] (-) TimerEvent: {}
+[8.017562] (-) TimerEvent: {}
+[8.117815] (-) TimerEvent: {}
+[8.218080] (-) TimerEvent: {}
+[8.318342] (-) TimerEvent: {}
+[8.418595] (-) TimerEvent: {}
+[8.518842] (-) TimerEvent: {}
+[8.619067] (-) TimerEvent: {}
+[8.719308] (-) TimerEvent: {}
+[8.819518] (-) TimerEvent: {}
+[8.919782] (-) TimerEvent: {}
+[9.020063] (-) TimerEvent: {}
+[9.120340] (-) TimerEvent: {}
+[9.220595] (-) TimerEvent: {}
+[9.320852] (-) TimerEvent: {}
+[9.421088] (-) TimerEvent: {}
+[9.521295] (-) TimerEvent: {}
+[9.621655] (-) TimerEvent: {}
+[9.722011] (-) TimerEvent: {}
+[9.822369] (-) TimerEvent: {}
+[9.922706] (-) TimerEvent: {}
+[10.023090] (-) TimerEvent: {}
+[10.123388] (-) TimerEvent: {}
+[10.223606] (-) TimerEvent: {}
+[10.323804] (-) TimerEvent: {}
+[10.424082] (-) TimerEvent: {}
+[10.524349] (-) TimerEvent: {}
+[10.624528] (-) TimerEvent: {}
+[10.724755] (-) TimerEvent: {}
+[10.824968] (-) TimerEvent: {}
+[10.925237] (-) TimerEvent: {}
+[11.025395] (-) TimerEvent: {}
+[11.125709] (-) TimerEvent: {}
+[11.226038] (-) TimerEvent: {}
+[11.326375] (-) TimerEvent: {}
+[11.426583] (-) TimerEvent: {}
+[11.427610] (explore_lite) StdoutLine: {'line': b'[100%] Linking CXX executable explore\n'}
+[11.526741] (-) TimerEvent: {}
+[11.626997] (-) TimerEvent: {}
+[11.727205] (-) TimerEvent: {}
+[11.827587] (-) TimerEvent: {}
+[11.927992] (-) TimerEvent: {}
+[12.028238] (-) TimerEvent: {}
+[12.128581] (-) TimerEvent: {}
+[12.228916] (-) TimerEvent: {}
+[12.329136] (-) TimerEvent: {}
+[12.429478] (-) TimerEvent: {}
+[12.529793] (-) TimerEvent: {}
+[12.630119] (-) TimerEvent: {}
+[12.684429] (explore_lite) StdoutLine: {'line': b'[100%] Built target explore\n'}
+[12.694344] (explore_lite) CommandEnded: {'returncode': 0}
+[12.725452] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'install'}
+[12.730208] (-) TimerEvent: {}
+[12.733231] (explore_lite) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sfr2023/leo_ws/build/explore_lite'], 'cwd': '/home/sfr2023/leo_ws/build/explore_lite', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'sfr2023'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sfr2023/groot_ws/install/groot/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sfr2023'), ('OLDPWD', '/home/sfr2023/leo_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1447'), ('SYSTEMD_EXEC_PID', '1921'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3218'), ('COLCON_PREFIX_PATH', '/home/sfr2023/groot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sfr2023'), ('JOURNAL_STREAM', '8:10968'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sfr2023'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sfr2023/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sfr2023-vm:@/tmp/.ICE-unix/1706,unix/sfr2023-vm:/tmp/.ICE-unix/1706'), ('INVOCATION_ID', '8d09b143e2734199996c1c41bbf584fb'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e4f31bec-0173-4a28-82f1-eaab55631049'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sfr2023/leo_ws/build/explore_lite'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sfr2023/groot_ws/install/gz_example_robot_description/lib/python3.10/site-packages:/home/sfr2023/groot_ws/install/bt_demos/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sfr2023/groot_ws/install/groot:/opt/ros/humble')]), 'shell': False}
+[12.738160] (explore_lite) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.738313] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/include/explore/\n'}
+[12.738532] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/include/explore//frontier_search.h\n'}
+[12.738619] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/include/explore//costmap_client.h\n'}
+[12.738678] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/include/explore//explore.h\n'}
+[12.738732] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/include/explore//costmap_tools.h\n'}
+[12.738785] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/share/explore_lite/config\n'}
+[12.738837] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/share/explore_lite/config/params_costmap.yaml\n'}
+[12.741342] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/share/explore_lite/config/params.yaml\n'}
+[12.741718] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/share/explore_lite/launch\n'}
+[12.741801] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/share/explore_lite/launch/explore.launch.py\n'}
+[12.742016] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/lib/explore_lite/explore\n'}
+[12.745612] (explore_lite) StdoutLine: {'line': b'-- Set runtime path of "/home/sfr2023/leo_ws/install/explore_lite/lib/explore_lite/explore" to ""\n'}
+[12.745838] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite\n'}
+[12.745922] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite\n'}
+[12.746011] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh\n'}
+[12.746080] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv\n'}
+[12.746149] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/share/explore_lite/environment/path.sh\n'}
+[12.746275] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/share/explore_lite/environment/path.dsv\n'}
+[12.746501] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/share/explore_lite/local_setup.bash\n'}
+[12.746585] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/share/explore_lite/local_setup.sh\n'}
+[12.746651] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/share/explore_lite/local_setup.zsh\n'}
+[12.746708] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/share/explore_lite/local_setup.dsv\n'}
+[12.746762] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/share/explore_lite/package.dsv\n'}
+[12.746815] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/share/ament_index/resource_index/packages/explore_lite\n'}
+[12.746869] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.747226] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake\n'}
+[12.747459] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake\n'}
+[12.747535] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/explore_lite/share/explore_lite/package.xml\n'}
+[12.748485] (explore_lite) CommandEnded: {'returncode': 0}
+[12.799424] (explore_lite) JobEnded: {'identifier': 'explore_lite', 'rc': 0}
+[12.830426] (-) TimerEvent: {}
+[12.930736] (-) TimerEvent: {}
+[13.031069] (-) TimerEvent: {}
+[13.131281] (-) TimerEvent: {}
+[13.231519] (-) TimerEvent: {}
+[13.311110] (leo_gz_plugins) StdoutLine: {'line': b'[100%] Linking CXX shared library libleo_gz_differential_plugin.so\n'}
+[13.331761] (-) TimerEvent: {}
+[13.432081] (-) TimerEvent: {}
+[13.532437] (-) TimerEvent: {}
+[13.632754] (-) TimerEvent: {}
+[13.733104] (-) TimerEvent: {}
+[13.747154] (leo_gz_plugins) StdoutLine: {'line': b'[100%] Built target leo_gz_differential_plugin\n'}
+[13.753897] (leo_gz_plugins) CommandEnded: {'returncode': 0}
+[13.775459] (leo_gz_plugins) JobProgress: {'identifier': 'leo_gz_plugins', 'progress': 'install'}
+[13.775789] (leo_gz_plugins) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sfr2023/leo_ws/build/leo_gz_plugins'], 'cwd': '/home/sfr2023/leo_ws/build/leo_gz_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'sfr2023'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sfr2023/groot_ws/install/groot/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sfr2023'), ('OLDPWD', '/home/sfr2023/leo_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1447'), ('SYSTEMD_EXEC_PID', '1921'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3218'), ('COLCON_PREFIX_PATH', '/home/sfr2023/groot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sfr2023'), ('JOURNAL_STREAM', '8:10968'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sfr2023'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sfr2023/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sfr2023-vm:@/tmp/.ICE-unix/1706,unix/sfr2023-vm:/tmp/.ICE-unix/1706'), ('INVOCATION_ID', '8d09b143e2734199996c1c41bbf584fb'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e4f31bec-0173-4a28-82f1-eaab55631049'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sfr2023/leo_ws/build/leo_gz_plugins'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sfr2023/groot_ws/install/gz_example_robot_description/lib/python3.10/site-packages:/home/sfr2023/groot_ws/install/bt_demos/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sfr2023/groot_ws/install/groot:/opt/ros/humble')]), 'shell': False}
+[13.780693] (leo_gz_plugins) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.780818] (leo_gz_plugins) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/leo_gz_plugins/lib/libleo_gz_differential_plugin.so\n'}
+[13.785297] (leo_gz_plugins) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/leo_gz_plugins/share/leo_gz_plugins/environment/gz_sim_system_plugin_path.sh\n'}
+[13.785445] (leo_gz_plugins) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/leo_gz_plugins/share/leo_gz_plugins/environment/gz_sim_system_plugin_path.dsv\n'}
+[13.785522] (leo_gz_plugins) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/leo_gz_plugins/share/ament_index/resource_index/package_run_dependencies/leo_gz_plugins\n'}
+[13.785588] (leo_gz_plugins) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/leo_gz_plugins/share/ament_index/resource_index/parent_prefix_path/leo_gz_plugins\n'}
+[13.785649] (leo_gz_plugins) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/leo_gz_plugins/share/leo_gz_plugins/environment/ament_prefix_path.sh\n'}
+[13.785847] (leo_gz_plugins) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/leo_gz_plugins/share/leo_gz_plugins/environment/ament_prefix_path.dsv\n'}
+[13.785942] (leo_gz_plugins) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/leo_gz_plugins/share/leo_gz_plugins/environment/path.sh\n'}
+[13.786020] (leo_gz_plugins) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/leo_gz_plugins/share/leo_gz_plugins/environment/path.dsv\n'}
+[13.786092] (leo_gz_plugins) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/leo_gz_plugins/share/leo_gz_plugins/local_setup.bash\n'}
+[13.786158] (leo_gz_plugins) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/leo_gz_plugins/share/leo_gz_plugins/local_setup.sh\n'}
+[13.786223] (leo_gz_plugins) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/leo_gz_plugins/share/leo_gz_plugins/local_setup.zsh\n'}
+[13.786288] (leo_gz_plugins) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/leo_gz_plugins/share/leo_gz_plugins/local_setup.dsv\n'}
+[13.786354] (leo_gz_plugins) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/leo_gz_plugins/share/leo_gz_plugins/package.dsv\n'}
+[13.786419] (leo_gz_plugins) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/leo_gz_plugins/share/ament_index/resource_index/packages/leo_gz_plugins\n'}
+[13.786516] (leo_gz_plugins) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/leo_gz_plugins/share/leo_gz_plugins/cmake/leo_gz_pluginsConfig.cmake\n'}
+[13.786584] (leo_gz_plugins) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/leo_gz_plugins/share/leo_gz_plugins/cmake/leo_gz_pluginsConfig-version.cmake\n'}
+[13.786788] (leo_gz_plugins) StdoutLine: {'line': b'-- Installing: /home/sfr2023/leo_ws/install/leo_gz_plugins/share/leo_gz_plugins/package.xml\n'}
+[13.787682] (leo_gz_plugins) CommandEnded: {'returncode': 0}
+[13.822332] (leo_gz_plugins) JobEnded: {'identifier': 'leo_gz_plugins', 'rc': 0}
+[13.822501] (-) EventReactorShutdown: {}
