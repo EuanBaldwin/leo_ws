@@ -1,0 +1,59 @@
+[0.598s] Invoking command in '/home/sfr2023/leo_ws/src/leo_description': PYTHONPATH=/home/sfr2023/leo_ws/build/leo_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2023/leo_ws/install/leo_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/leo_description build --build-base /home/sfr2023/leo_ws/build/leo_description/build install --record /home/sfr2023/leo_ws/build/leo_description/install.log --single-version-externally-managed install_data
+[0.805s] running egg_info
+[0.805s] creating ../../build/leo_description/leo_description.egg-info
+[0.805s] writing ../../build/leo_description/leo_description.egg-info/PKG-INFO
+[0.806s] writing dependency_links to ../../build/leo_description/leo_description.egg-info/dependency_links.txt
+[0.806s] writing entry points to ../../build/leo_description/leo_description.egg-info/entry_points.txt
+[0.806s] writing requirements to ../../build/leo_description/leo_description.egg-info/requires.txt
+[0.806s] writing top-level names to ../../build/leo_description/leo_description.egg-info/top_level.txt
+[0.806s] writing manifest file '../../build/leo_description/leo_description.egg-info/SOURCES.txt'
+[0.808s] reading manifest file '../../build/leo_description/leo_description.egg-info/SOURCES.txt'
+[0.809s] writing manifest file '../../build/leo_description/leo_description.egg-info/SOURCES.txt'
+[0.809s] running build
+[0.809s] running build_py
+[0.809s] creating /home/sfr2023/leo_ws/build/leo_description/build
+[0.809s] creating /home/sfr2023/leo_ws/build/leo_description/build/lib
+[0.809s] creating /home/sfr2023/leo_ws/build/leo_description/build/lib/leo_description
+[0.809s] copying leo_description/__init__.py -> /home/sfr2023/leo_ws/build/leo_description/build/lib/leo_description
+[0.809s] running install
+[0.809s] running install_lib
+[0.811s] creating /home/sfr2023/leo_ws/install/leo_description/lib/python3.10/site-packages/leo_description
+[0.811s] copying /home/sfr2023/leo_ws/build/leo_description/build/lib/leo_description/__init__.py -> /home/sfr2023/leo_ws/install/leo_description/lib/python3.10/site-packages/leo_description
+[0.811s] byte-compiling /home/sfr2023/leo_ws/install/leo_description/lib/python3.10/site-packages/leo_description/__init__.py to __init__.cpython-310.pyc
+[0.811s] running install_data
+[0.812s] creating /home/sfr2023/leo_ws/install/leo_description/share/ament_index
+[0.812s] creating /home/sfr2023/leo_ws/install/leo_description/share/ament_index/resource_index
+[0.812s] creating /home/sfr2023/leo_ws/install/leo_description/share/ament_index/resource_index/packages
+[0.812s] copying resource/leo_description -> /home/sfr2023/leo_ws/install/leo_description/share/ament_index/resource_index/packages
+[0.812s] copying package.xml -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description
+[0.812s] creating /home/sfr2023/leo_ws/install/leo_description/share/leo_description/launch
+[0.812s] copying launch/leo_rviz.launch.py -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/launch
+[0.812s] copying launch/leo_sim.launch.py -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/launch
+[0.812s] creating /home/sfr2023/leo_ws/install/leo_description/share/leo_description/models
+[0.812s] copying models/Chassis.dae -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/models
+[0.821s] copying models/WheelB.dae -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/models
+[0.823s] copying models/WheelA.dae -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/models
+[0.825s] copying models/Wheel_outline.stl -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/models
+[0.825s] copying models/Antenna.dae -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/models
+[0.825s] copying models/Rocker_outline.stl -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/models
+[0.825s] copying models/Rocker.dae -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/models
+[0.827s] copying models/Chassis_outline.stl -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/models
+[0.828s] creating /home/sfr2023/leo_ws/install/leo_description/share/leo_description/urdf
+[0.828s] copying urdf/leo.urdf.xacro -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/urdf
+[0.828s] copying urdf/leo_proper.gazebo.xacro -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/urdf
+[0.828s] copying urdf/leo.gazebo.xacro -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/urdf
+[0.828s] creating /home/sfr2023/leo_ws/install/leo_description/share/leo_description/rviz
+[0.828s] copying rviz/nav2.rviz -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/rviz
+[0.828s] copying rviz/leo_view.rviz -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/rviz
+[0.828s] creating /home/sfr2023/leo_ws/install/leo_description/share/leo_description/worlds
+[0.828s] copying worlds/meshes/hexagon.dae -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/worlds
+[0.828s] copying worlds/meshes/wall.dae -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/worlds
+[0.829s] copying worlds/tb3old.sdf -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/worlds
+[0.829s] copying worlds/tb3.sdf -> /home/sfr2023/leo_ws/install/leo_description/share/leo_description/worlds
+[0.829s] creating /home/sfr2023/leo_ws/install/leo_description/share/leo_description/config
+[0.829s] creating /home/sfr2023/leo_ws/install/leo_description/share/leo_description/maps
+[0.829s] running install_egg_info
+[0.831s] Copying ../../build/leo_description/leo_description.egg-info to /home/sfr2023/leo_ws/install/leo_description/lib/python3.10/site-packages/leo_description-0.0.0-py3.10.egg-info
+[0.832s] running install_scripts
+[0.856s] writing list of installed files to '/home/sfr2023/leo_ws/build/leo_description/install.log'
+[0.884s] Invoked command in '/home/sfr2023/leo_ws/src/leo_description' returned '0': PYTHONPATH=/home/sfr2023/leo_ws/build/leo_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2023/leo_ws/install/leo_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/leo_description build --build-base /home/sfr2023/leo_ws/build/leo_description/build install --record /home/sfr2023/leo_ws/build/leo_description/install.log --single-version-externally-managed install_data
